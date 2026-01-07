@@ -1,0 +1,124 @@
+.perks-section {
+  background-color: white;
+  padding-bottom: 80px !important;
+}
+.perk-col {
+  display: flex;
+  align-items: stretch;
+  align-items: center;
+}
+
+.card-content p,
+.card-content h3 {
+  text-align: center !important;
+}
+.perk-card-wrapper {
+  position: relative;
+  border-radius: 59px;
+  padding: 30px 24px;
+  text-align: center;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.perk-card-wrapper.card-even {
+  background-color: #f3effe;
+}
+.perk-card-wrapper.card-odd {
+  background-color: #ffffff;
+}
+.card-icon {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+}
+.card-tit {
+  font-family: var(--font-family-roboto);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: center;
+  color: #1d2026;
+}
+.card-description {
+  font-family: var(--font-family-roboto);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #4e6e62;
+}
+.individual-perk-swiper {
+  width: 100%;
+  height: 100%;
+}
+.equal-height-slide {
+  height: 100%;
+}
+.swiper-pagination-bullet {
+  background: #d9d9d9;
+  width: 13px;
+  height: 12px;
+  opacity: 1;
+  border-radius: 50%;
+}
+.swiper-pagination-bullet-active {
+  background: #fef7d9;
+  opacity: 1;
+  outline: 3px solid #8b5cf6;
+}
+.section-title-perks {
+  letter-spacing: -1%;
+  font-family: var(--font-family-inter);
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 140%;
+  color: #1d2026;
+}
+.section-title-perks span {
+  position: relative;
+}
+.section-title-perks span::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 4px;
+  opacity: 1;
+  bottom: -0.5rem;
+  left: 0;
+  background-color: #a27df8;
+  border-radius: 13px;
+}
+
+.perks-row-swipers {
+  position: relative;
+}
+.perk-swiper
+  .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 3rem !important;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.text-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.perk-col {
+  display: flex;
+  align-items: stretch !important;
+}
+
+.perk-card-wrapper {
+  justify-content: space-between;
+}

@@ -1,0 +1,150 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.content-wrap {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+  flex-grow: 1;
+}
+.faqs-main-title {
+  font-family: var(--font-family-roboto);
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 140%;
+  letter-spacing: 0%;
+  color: #0a2540;
+}
+.faq-categories-sidebar .list-group {
+  overflow: hidden;
+  border-radius: 12px;
+  padding-block: 8px;
+  background-color: #ffffff;
+  border: 1px solid #c0c0c0;
+}
+.faq-categories-sidebar .list-group-item {
+  font-family: var(--font-family-roboto);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  color: #1d2026;
+  padding: 12px 36px;
+}
+.faq-categories-sidebar .list-group-item:hover:not(.active) {
+  border-left: 5px solid #8b5cf6;
+  cursor: pointer;
+}
+.faq-categories-sidebar .list-group-item.active {
+  background-color: #8b5cf6 !important;
+  color: #ffffff !important;
+  border: none !important;
+}
+.faq-categories-sidebar .form-check-input {
+  display: none;
+}
+.faq-categories-sidebar {
+  width: 100%;
+}
+.accordion {
+  border: none;
+  border-radius: 0;
+}
+.accordion-item {
+  border-width: 1px 0px 1px 0px;
+  border-style: solid;
+  border-color: #c0c0c0;
+  border-radius: 0 !important;
+  overflow: hidden;
+}
+.accordion-header .accordion-button {
+  font-family: var(--font-family-roboto);
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  line-height: 140%;
+  color: #0a2540;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #fffbee !important;
+  border-width: 1px 0px 1px 1px;
+  border-style: solid;
+  border-color: #a1a1a1;
+  box-shadow: none !important;
+}
+.accordion-body {
+  font-family: var(--font-family-roboto);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  vertical-align: middle;
+  color: #9c9c9c;
+}
+.accordion-button::after {
+  width: 36px;
+  height: 36px;
+  background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36' fill='none'><path fill-rule='evenodd' clip-rule='evenodd' d='M18 36C27.94 36 36 27.94 36 18C36 8.06 27.94 0 18 0C8.06 0 0 8.06 0 18C0 27.94 8.06 36 18 36ZM19.39 12.11L18 10.72L16.61 12.11L7.61 21.11L10.39 23.89L18 16.28L25.61 23.89L28.39 21.11L19.39 12.11Z' fill='%23A27DF8'/></svg>") !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: none !important;
+  margin-left: auto;
+  margin-right: 0.5rem;
+  flex-shrink: 0;
+  transition: transform 0.2s ease-in-out;
+}
+.accordion-button:not(.collapsed)::after {
+  transform: rotate(180deg) !important;
+}
+.accordion-button:focus,
+.accordion-button:focus-visible {
+  box-shadow: none !important;
+}
+
+@media (max-width: 991px) {
+  .faqs-main-title {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .faq-categories-sidebar .list-group-item {
+    padding: 12px 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .faqs-main-title {
+    font-size: 28px;
+  }
+  .accordion-header .accordion-button {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .faqs-main-title {
+    font-size: 36px;
+  }
+
+  .faq-categories-sidebar .list-group-item {
+    padding: 12px 15px;
+    font-size: 17px;
+  }
+
+  .ps-4 {
+    padding-left: 1.5rem !important;
+  }
+
+  .accordion-header .accordion-button {
+    font-size: 16px;
+  }
+}
+.spinner-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  /* padding: 50px; */
+}

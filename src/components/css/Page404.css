@@ -1,0 +1,44 @@
+.oops-heading {
+  font-family: var(--font-family-roboto);
+  font-weight: 500;
+  font-size: 57px;
+  line-height: 140%;
+  text-align: center;
+  color: #7e54e0;
+}
+.Oops-message {
+  font-family: var(--font-family-roboto);
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 140%;
+  text-align: center;
+  color: #5c5c5c;
+}
+.back-btn {
+  font-family: var(--font-family-inter);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 56px;
+  letter-spacing: -1%;
+  text-transform: capitalize;
+  color: white;
+  padding: 10px 32px !important;
+  background-color: #7e54e0 !important;
+  border: none !important;
+  border-radius: 0 !important;
+}
+.back-btn:hover {
+  opacity: 0.9;
+}
+@media (max-width: 575.98px) {
+  .oops-heading {
+    font-size: 40px;
+  }
+  .Oops-message {
+    font-size: 28px;
+  }
+  .back-btn {
+    line-height: 45px;
+    padding: 5px 25px !important;
+  }
+}

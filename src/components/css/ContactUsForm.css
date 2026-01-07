@@ -1,0 +1,118 @@
+.contact-us-section {
+  margin-block: 7rem;
+}
+
+.contact-form-title {
+  font-family: var(--font-family-roboto);
+  font-weight: 500;
+  font-size: 57px;
+  line-height: 140%;
+  color: #000000;
+  margin-bottom: 0.5rem;
+}
+
+.contact-form-subtitle {
+  font-family: var(--font-family-roboto);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #5c5c5c;
+  margin-bottom: 2.5rem;
+}
+
+.send-button {
+  padding: 14px 24px !important;
+  border-radius: 12px !important;
+  font-family: var(--font-family-roboto) !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  background-color: #7e54e0 !important;
+  color: #ffffff !important;
+  border: none !important;
+  transition: all 0.3s ease;
+}
+
+.send-button:hover {
+  background-color: #6a44c5 !important;
+  transform: translateY(-2px);
+}
+
+.contact-form .form-control,
+.contact-form .form-select {
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  padding: 0.8rem 1rem;
+  font-size: 15px;
+}
+
+.contact-form .form-control:focus,
+.contact-form .form-select:focus {
+  box-shadow: 0 0 0 3px rgba(126, 84, 224, 0.1);
+  border-color: #7e54e0;
+}
+
+.quick-contact-info {
+  background: transparent;
+  padding: 0;
+}
+
+.quick-contact-info .contact-txt {
+  font-weight: 600;
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: 0.5px;
+}
+
+.quick-contact-info .info-txt {
+  font-weight: 400;
+  font-size: 15px;
+  color: #5c5c5c;
+}
+
+@media (max-width: 991px) {
+  .contact-us-section {
+    margin-block: 4rem;
+  }
+  .contact-form-title {
+    font-size: 42px;
+    text-align: center;
+  }
+  .contact-form-subtitle {
+    text-align: center;
+  }
+  .map-placeholder {
+    padding-left: 0 !important;
+    height: 400px;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .quick-contact-info {
+    justify-content: flex-start !important;
+    gap: 20px 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .quick-contact-info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .small-email {
+    font-size: 13px !important;
+  }
+}
+
+.map-placeholder img {
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.contact-us-section .form-select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L6 6L11 1' stroke='%237E54E0' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 12px;
+}

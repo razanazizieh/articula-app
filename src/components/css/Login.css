@@ -1,0 +1,131 @@
+.auth-image-col {
+  background-color: #f3effe;
+}
+.login-img {
+  transform: translateX(3.5rem) scale(1.3);
+}
+.login-title {
+  font-family: var(--font-family-inter);
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1%;
+  text-align: center;
+  color: #1d2026;
+}
+.signin-btn {
+  font-family: var(--font-family-inter);
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 48px;
+  letter-spacing: -0.8%;
+  text-transform: capitalize;
+  color: white !important;
+  background-color: #8b5cf6 !important;
+  border: none !important;
+  padding-inline: 35px !important;
+  border-radius: 0 !important;
+  align-items: center;
+  gap: 1rem;
+  opacity: 1 !important;
+  display: flex;
+  justify-content: center;
+}
+.signin-btn:hover {
+  opacity: 0.9;
+}
+.password-input-container {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.password-input-container input.form-control {
+  padding-right: 40px;
+}
+
+.signin-form .form-control {
+  box-shadow: none;
+  background-color: #ffffff;
+  border: 1px solid #e9eaf0;
+  padding-block: 0.5rem;
+  border-radius: 0;
+}
+.signin-form .form-control::placeholder {
+  font-family: var(--font-family-inter);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8c94a3;
+}
+.signin-form .form-control:hover,
+.signin-form .form-control:focus {
+  box-shadow: none;
+  border: 1px solid #e9eaf0;
+}
+.form-label {
+  font-family: var(--font-family-inter);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -1%;
+  color: #1d2026;
+}
+.form-check-label {
+  font-family: var(--font-family-inter);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -1%;
+  color: #4e5566;
+}
+.form-check-input {
+  /* background-color: #ffffff !important; */
+  border: 1px solid #ced1d9 !important;
+  border-radius: 0 !important;
+}
+.form-check-input:focus,
+.form-check-input:checked {
+  box-shadow: none !important;
+}
+.separator-text {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-family-roboto);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #a1a1a1;
+}
+
+.separator-text::before {
+  content: "";
+  flex-grow: 1;
+  margin-right: 15px;
+  height: 1px;
+  background-color: #e9eaf0;
+}
+
+.separator-text::after {
+  content: "";
+  flex-grow: 1;
+  margin-left: 15px;
+  height: 1px;
+  background-color: #e9eaf0;
+}
+.Q-txt {
+  font-family: var(--font-family-roboto);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: white;
+}

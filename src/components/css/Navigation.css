@@ -1,0 +1,124 @@
+.navbar-custom {
+  background-color: var(--main-Color);
+  overflow-x: clip; 
+}
+
+.nav-link-custom {
+  font-family: var(--font-family-roboto);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff !important;
+  padding-inline: 0 !important;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-link-custom.active::after {
+  content: "";
+  position: absolute;
+  background-color: #e7ddb5;
+  border-radius: 9px;
+  width: 100%;
+  height: 3px;
+  left: 0;
+  bottom: -5px;
+}
+
+@media (min-width: 992px) and (max-width: 1180px) {
+  .navbar-custom .container {
+    max-width: 98% !important;
+  }
+
+  .me-auto.gap-lg-5 {
+    gap: 1.2rem !important;
+  }
+
+  .me-lg-5 {
+    margin-right: 1.2rem !important; 
+  }
+
+  .nav-link-custom {
+    font-size: 14px !important; 
+  }
+
+  .gap-lg-4 {
+    gap: 0.8rem !important; 
+  }
+
+  .outline-btn, .fill-btn {
+    padding: 8px 12px !important;
+    font-size: 11px !important;
+  }
+}
+
+.dropdown-toggle-user {
+  display: flex !important;
+  align-items: center;
+  padding: 0;
+  border: none !important;
+  background: transparent !important;
+}
+
+.arrow-wrapper {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.dropdown-toggle::after {
+  display: none !important; 
+}
+
+.outline-btn, .fill-btn {
+  font-family: var(--font-family-roboto) !important;
+  font-size: 13px !important;
+  border-radius: 14px !important;
+  padding: 10px 25px !important;
+  font-weight: 500 !important;
+  white-space: nowrap;
+}
+
+.outline-btn {
+  border: 1px solid #ffffff !important;
+  color: #ffffff !important;
+  background-color: transparent !important;
+}
+
+.outline-btn:hover {
+  color: var(--main-Color) !important;
+  background-color: #ffffff !important;
+}
+
+.fill-btn {
+  background-color: #fef3c7 !important;
+  color: #242424 !important;
+  border: none !important;
+}
+
+.user-dropdown.dropdown-menu,
+.custom-lang-dropdown .dropdown-menu {
+  background-color: #ffffff !important;
+  border: 1px solid #e4e7e9 !important;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.1) !important;
+  padding: 0 !important;
+  margin-top: 10px !important;
+  right: 0 !important;
+  left: auto !important;
+}
+
+.user-dropdown-item {
+  color: #1d2026 !important;
+  padding: 10px 20px !important;
+}
+
+.user-avatar-initials, .user-avatar-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.offcanvas {
+  background-color: var(--main-Color) !important;
+}

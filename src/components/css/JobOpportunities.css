@@ -1,0 +1,135 @@
+.job-section-wrapper {
+  background-color: var(--back-color);
+  padding-block: 6rem;
+  position: relative;
+}
+
+.job-card {
+  box-shadow: -1px 0px 0px 0px #e9eaf0 inset;
+  overflow: hidden;
+  border-radius: 32px !important;
+  border: none !important;
+  background: #ffffff;
+}
+
+.cardimg-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.cardimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 32px 0 0 32px;
+}
+
+.card-title {
+  font-family: var(--font-family-roboto);
+  font-weight: 500;
+  font-size: 20px !important;
+  line-height: 140%;
+  color: var(--gray900);
+}
+
+.card-text {
+  font-family: var(--font-family-roboto);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: var(--gray700);
+}
+
+.card-footerline .job-info {
+  font-family: var(--font-family-roboto);
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--gray700);
+}
+
+.custom-job-body .job-sal {
+  font-family: var(--font-family-inter);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--gray900);
+}
+
+.custom-job-body .Featured {
+  font-family: var(--font-family-inter);
+  font-weight: 500;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #15711f !important;
+  padding: 4px 10px !important;
+  background-color: #e1f7e3 !important;
+  border-radius: 4px;
+}
+
+.line-divider {
+  border: 0.5px solid #e9eaf0;
+}
+
+.job-swiper {
+  padding-bottom: 80px;
+}
+
+.job-swiper .swiper-pagination-bullet {
+  background: #d9d9d9;
+  width: 16px;
+  height: 16px;
+  opacity: 1;
+}
+
+.job-swiper .swiper-pagination-bullet-active {
+  background: #fef7d9;
+  outline: 7px solid #8b5cf6;
+}
+.job-swiper.swiper-horizontal > .swiper-pagination-bullets {
+  bottom: 2rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+@media (max-width: 991.98px) {
+  .g-5 {
+    --bs-gutter-x: 2rem !important;
+    --bs-gutter-y: 2rem !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .job-card {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+
+  .cardimg-container {
+    height: 200px;
+  }
+
+  .cardimg {
+    border-radius: 32px 32px 0 0 !important;
+  }
+
+  .custom-job-body {
+    padding: 1.5rem !important;
+  }
+
+  .card-footerline {
+    gap: 12px !important;
+  }
+
+  .view-more-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .card-footerline .job-info {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,33 @@
+.featured-bar-title-col {
+  position: relative;
+  z-index: 10;
+  margin-bottom: -40px;
+}
+.featured-bar-title-col.align-right {
+  display: flex;
+  justify-content: flex-end;
+}
+.featured-bar-title-col.align-left {
+  display: flex;
+  justify-content: flex-start;
+}
+.featured-bar-title-box {
+  background-color: #7e54e0;
+  padding: 30px 40px;
+  text-align: center;
+  width: 413px;
+}
+.featured-bar-title-text {
+  font-family: var(--font-family-roboto);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 140%;
+}
+.featured-bar-title-col.align-right .featured-bar-title-box {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.featured-bar-title-col.align-left .featured-bar-title-box {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}

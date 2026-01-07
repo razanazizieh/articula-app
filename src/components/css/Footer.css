@@ -1,0 +1,121 @@
+.footer-content {
+  background-color: var(--main-Color);
+  padding: 4rem 11rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1400px) {
+  .footer-content {
+    padding: 4rem 5rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .footer-content {
+    padding: 4rem 2rem;
+  }
+  .social-icons-container {
+    gap: 8px !important;
+  }
+  .icon-container {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.footer-about .footer-title {
+  margin-bottom: 0.5rem;
+}
+
+.main-footer p {
+  font-family: var(--font-family-inter);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -1%;
+  color: var(--gray500);
+}
+
+.footer-links-apps .footer-title,
+.footer-links .footer-title {
+  font-family: var(--font-family-inter);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  color: var(--white);
+}
+
+.social-icons-container {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+}
+
+.icon-container {
+  background-color: #363b4766;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  flex-shrink: 0;
+  transition: all 0.3s ease;
+}
+
+.icon-container:hover {
+  background-color: #fef3c7;
+  box-shadow: 0px 6px 20px 0px #cc522b80;
+  transform: translateY(-5px);
+}
+
+.icon-container:hover svg path {
+  fill: #7e54e0;
+}
+
+.main-footer .footer-links a {
+  font-family: var(--font-family-inter);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--gray500);
+  transition: color 0.3s;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+
+.main-footer .footer-links a:hover {
+  color: var(--white);
+  border-bottom: 1px solid #fef5d2;
+}
+
+.linklist {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.main-footer .footer-bottom {
+  background-color: var(--sec-Color);
+}
+
+.main-footer .footer-bottom p {
+  font-family: var(--font-family-roboto);
+  font-weight: 500;
+  font-size: 16px;
+  color: #242424;
+  text-align: center;
+  margin: 0;
+}
+.store-img {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.store-img:hover {
+  transform: translateY(-4px) scale(1.02);
+  filter: drop-shadow(0px 8px 15px rgba(0, 0, 0, 0.3));
+}

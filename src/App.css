@@ -1,0 +1,108 @@
+.user-dropdown {
+  box-shadow: 0px 4px 22px 0px #00000026 !important;
+  background-color: #f8f8f8 !important;
+  /* width: 218;
+  height: 122; */
+  border-radius: 0 !important;
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  border-bottom: 3px solid #7e54e0 !important;
+}
+.username {
+  color: #f3effe;
+  font-family: var(--font-family-roboto);
+  font-weight: 400;
+  font-size: 18px !important;
+  line-height: 140%;
+}
+.user-dropdown-item {
+  padding: 0.5rem 1rem !important;
+  font-family: var(--font-family-inter);
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 22px;
+  letter-spacing: -1%;
+  background-color: #f8f8f8 !important;
+  color: #333333 !important;
+}
+.user-dropdown-item:hover,
+.user-dropdown-item:focus {
+  background-color: ه#f3effe !important;
+  color: #333333 !important;
+  outline: none !important;
+  box-shadow: none !important;
+  transition: background-color 0.2s ease;
+}
+.user-dropdown-item:not(:last-of-type) {
+  border-bottom: 1px solid #0000000a !important;
+}
+.dropdown-toggle-user::after {
+  display: none !important;
+}
+
+.navbar-toggler:not(.collapsed) {
+  border: none;
+}
+
+.navbar-toggler.collapsed {
+  border: none !important;
+}
+.navbar-toggler.collapsed:active {
+  text-decoration: none;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+/* .navbar-nav-scroll {
+  margin-block-start: 3rem;
+} */
+
+.navbar-toggler {
+  background-image: none !important;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  display: none !important;
+}
+
+.navbar-toggler .custom-toggler-icon {
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  display: none !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:hover {
+  outline: 0 !important;
+  box-shadow: none !important;
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+.offcanvas-header,
+.offcanvas-body {
+  background-color: #6341af !important;
+}
+.offcanvas-header {
+  padding: 4rem 4rem 1rem 4rem !important;
+}
+.offcanvas-body {
+  padding-inline-start: 2rem !important;
+}
+/* .offcanvas-body .navbar-nav { */
+/* display: flex !important;
+  flex-direction: column !important; */
+/* gap: 1rem !important; */
+/* margin-bottom: 1rem; */
+/* } */
+
+.btn-close:focus {
+  box-shadow: none !important;
+}
