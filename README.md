@@ -13,5 +13,5 @@ React, JavaScript (ES6+), CSS Modules, REST API
 The main pages follow a Figma design provided by the course. The API endpoints were tested with a provided Postman collection before being connected to the app.
 
 ## Run locally
-npm install
-npm run dev
+* npm install
+* npm run dev
